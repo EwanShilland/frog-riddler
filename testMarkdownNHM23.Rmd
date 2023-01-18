@@ -35,13 +35,20 @@ print("hello")
 You can also embed plots, for example:
 
 ```{r}
-#library(tidyverse)
-#comp <- read.csv('data/compensation.csv')
-#glimpse(comp)
-#ggplot(comp, aes(x = Root, y = Fruit)) +
- # geom_point() +
-  #facet_wrap(~ Grazing)
+
+library(tidyverse)
+comp <- read.csv('../data/compensation.csv')
+glimpse(comp)
+ggplot(comp, aes(x = Root, y = Fruit)) +
+  geom_point() +
+  facet_wrap(~ Grazing)
+
 ```
+
+```{r}
+#sup, Ewan. if you can see this, I have been in your internets.
+```
+![sprawk](../../../Pictures/Camera/P1000558.JPG)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
