@@ -1,3 +1,7 @@
+#Ignore word and ppt files Ewan edit
+*.docx
+*.ppt
+
 # History files
 .Rhistory
 .Rapp.history
